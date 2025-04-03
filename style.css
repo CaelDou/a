@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+  background-image: url('waves-1677250.png');
+  background-size: 100%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 10%;
+  border-radius: 15px;
+  border: 6px solid #241f31;
+}
+
+.sus {
+  width: 100%;
+  border-radius: 15px;
+}
+
+div {
+  text-align: center;
+  vertical-align: baseline;
+}
+
+
+.container {
+  display: flex; /* Aligns child divs in a row */
+  justify-content: center; /* Centers them horizontally */
+  gap: 20px; /* Adds spacing between divs */
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.polaroid {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column; /* Ensures the text stays below the image */
+  align-items: center; /* Centers content */
+  width: 25%; /* Adjusted width */
+  background-color: #3b4252;
+  box-shadow: 0 4px 8px 0 rgb(36, 31, 49, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 20);
+  margin-bottom: 25px;
+  border: 6px solid #2e3440;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+b {
+  font-size: 20px;
+  color: #c0dce4;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  color: #c0dce4;
+  flex: 1; /* Allows it to take equal space */
+}
+
+a:link,
+a:visited {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: #2e3440;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.inline {
+  display: flex;
+  align-items: flex-start; /* Align text and images at the top */
+  justify-content: space-between; /* Space out elements evenly */
+  gap: 40px; /* Adds spacing between text and images */
+  width: 100%; /* Ensures full width usage */
+  flex-wrap: wrap; /* Prevents overflow */
+}
